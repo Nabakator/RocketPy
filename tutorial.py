@@ -14,7 +14,7 @@ tomorrow = datetime.date.today() + datetime.timedelta(days=1)
 
 env.set_date(
   (tomorrow.year, tomorrow.month, tomorrow.day, 12), timezone="America/Denver"
-) # Tomorrow's date in year, month, day, hour UTC format
+)  # Tomorrow's date in year, month, day, hour UTC format
 
 env.set_atmospheric_model(type='Forecast', file='GFS')
 
